@@ -1,0 +1,63 @@
+.sidenav {
+    width: 250px;
+    transition: width 0.3s ease-in-out;
+    height: 100%;
+    background-color: rgb(10, 25, 41);
+    position: fixed;
+    top: 8vh;
+    text-align: center;
+}
+
+.sidenavClosed {
+    transition: width 0.3s ease-in-out;
+    background-color: rgb(10, 25, 41);
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    top: 8vh;
+    text-align: center;
+}
+
+.sideitem {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #B2BAC2;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+
+
+.linkText {
+    padding-left: 16px;
+}
+
+.linkTextClosed {
+    /* composes: linkText; */
+    visibility: hidden;
+
+}
+
+.sideitem:hover {
+    background-color: #244f7d1c;
+}
+
+.menuBtn {
+    align-self: center;
+    align-self: flex-start;
+    justify-self: flex-end;
+    color: #B2BAC2;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.logoutbutton {
+    display: none;
+
+}

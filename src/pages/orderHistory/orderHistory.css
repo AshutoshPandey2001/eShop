@@ -1,0 +1,78 @@
+.myorder {
+    margin-top: 25px;
+    margin-left: 25%;
+
+}
+
+.notanyOrder {
+    text-align: center;
+}
+
+.myOrderCard {
+    border: 2px solid gray;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.details {
+    padding-left: 30px
+}
+
+.header {
+    padding: 0 10px 0 10px;
+    display: flex;
+    border-bottom: 2px solid;
+    justify-content: space-between;
+}
+
+.customer_Details {
+    font-size: 20px;
+}
+
+.contactDetails {
+    font-size: 20px;
+}
+
+.paymentmode {
+    font-size: 20px;
+}
+
+.allitems p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total_Ammount {
+    border-top: 2px solid;
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+}
+
+@media screen and (max-width: 1024px) {
+    .myorder {
+        margin-top: 25px;
+        margin-left: 0;
+
+    }
+
+    .myOrderCard {
+        border: 2px solid gray;
+        width: auto;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .item_card {
+        width: 715px;
+        overflow-x: scroll;
+    }
+}

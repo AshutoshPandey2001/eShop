@@ -1,0 +1,11 @@
+.navlinks {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.527);
+
+
+}
+
+.navbar {
+    height: 8vh;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.category {
+    display: flex;
+    align-items: center;
+    column-gap: 1.7rem;
+    margin-bottom: 0;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.category li {
+    justify-items: center;
+    width: 150px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.category img {
+    width: 100%;
+}
+
+
+
+// @media screen and (max-width: 800px) {
+//     .category {
+
+//         display: flow-root;
+//         align-items: center;
+//         column-count: 2;
+//         column-gap: 0rem;
+//         margin-bottom: 0;
+//         justify-content: space-between;
+//         text-align: center;
+//     }
+// }

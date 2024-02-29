@@ -1,0 +1,15 @@
+.products {
+    display: flex;
+    align-items: stretch;
+    column-gap: 2.7rem;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 350px;
+    margin: 10px 0 10px 0;
+}
